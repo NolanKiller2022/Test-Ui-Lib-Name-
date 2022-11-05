@@ -32,6 +32,8 @@ function Library:Window(Name)
 	Window.BorderSizePixel = 0
 	Window.Position = UDim2.new(0.19329609, 0, 0.236162364, 0)
 	Window.Size = UDim2.new(0, 548, 0, 285)
+	Window.Active = true
+	Window.Draggable = true
 
 	UICorner.CornerRadius = UDim.new(0, 6)
 	UICorner.Parent = Window
